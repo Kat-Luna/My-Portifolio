@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercy K. Mbaka | AI-Cloud Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+    <style>
+        :root {
+            --gold: #FFD700;
+            --black: #000000;
+            --gray: #cccccc;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: var(--black);
+            color: var(--gold);
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            text-align: center;
+            padding: 3rem 1rem 2rem;
+            background: #0a0a0a;
+            border-bottom: 2px solid var(--gold);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+
+        header h2 {
+            font-size: 1rem;
+            color: var(--gray);
+        }
+
+        nav {
+            text-align: center;
+            padding: 1rem;
+        }
+
+        nav a {
+            color: var(--gold);
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 4px solid var(--gold);
+            margin-bottom: 20px;
+            object-fit: cover;
+            box-shadow: 0 0 12px #FFD70088;
+        }
+
+        .hero h2 {
+            font-size: 1.8rem;
+            margin-bottom: 8px;
+            color: var(--gold);
+        }
+
+        .hero h3 {
+            font-size: 1rem;
+            color: #aaa;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1rem;
+            color: #ccc;
+        }
+
+        .btn-group {
+            margin-top: 20px;
+        }
+
+        .btn-group a {
+            background: var(--gold);
+            color: #000;
+            padding: 10px 25px;
+            margin: 10px 5px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        .btn-group a:hover {
+            background: #fff;
+            transform: translateY(-2px);
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            color: var(--gold);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .project {
+            background: #111;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-left: 4px solid var(--gold);
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 12px #FFD70055;
+        }
+
+        .project h3 {
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            color: #ccc;
+            margin-bottom: 10px;
+        }
+
+        a.card-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0a0a0a;
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        @media screen and (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            .btn-group a {
+                display: block;
+                margin: 10px auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>CEO Portfolio</h1>
+        <h2>Mercy K. Mbaka</h2>
+        <h2>Software Engineer | AI-Powered Cloud Engineer & Web Developer</h2>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <img src="C:\Users\LUNA\Desktop\GINGER PORTIFOLIO\image\profile.jpg" alt="Mercy Mbaka - AI-Powered Software Engineer" />
+        <h2>Mercy K. Mbaka</h2>
+        <h3>Software Engineer | AI-Powered Cloud Engineer & Web Developer</h3>
+        <p><em>Cybersecurity • Real Estate Tech • Business Intelligence • Wellness Automation</em></p>
+        <div class="btn-group">
+            <a href="#projects">View Projects</a>
+            <a href="your-resume-link.pdf" target="_blank">Download Resume</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m a 23-year-old Software Engineering student at Zetech University, Ruiru Campus, specializing in Artificial
+            Intelligence and Cloud Computing. I’m passionate about creating real-world solutions through
+            technology—especially by building websites and platforms that solve problems, automate systems, and empower
+            businesses. With a strong foundation in cloud-based development and a creative approach to tech, I’m seeking
+            an opportunity to grow, contribute, and innovate within a forward-thinking team.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Featured Projects</h2>
+
+        <a href="#" class="card-link">
+            <div class="project">
+                <h3>🌿 Ginger Soul Massage</h3>
+                <p>Wellness & therapy mobile platform with booking + M-PESA integration.</p>
+                <p><strong>Stack:</strong> HTML, JS, Firebase</p>
+            </div>
+        </a>
+
+        <a href="#" class="card-link">
+            <div class="project">
+                <h3>🏡 AI Land Verification & Title Checker</h3>
+                <p>Fraud-prevention AI to validate land ownership in Kenya.</p>
+                <p><strong>Stack:</strong> Flask, OCR, AI, REST API</p>
+            </div>
+        </a>
+
+        <a href="#" class="card-link">
+            <div class="project">
+                <h3>🔐 WSACP – Web Security & Certificate Platform</h3>
+                <p>Real-time vulnerability scanner + cert generator for businesses.</p>
+                <p><strong>Stack:</strong> Python, Bootstrap, SQLite</p>
+            </div>
+        </a>
+
+        <a href="#" class="card-link">
+            <div class="project">
+                <h3>🏫 Kianjeru School Website</h3>
+                <p>Professional school website + parent communication system.</p>
+                <p><strong>Stack:</strong> Tailwind, HTML, JS</p>
+            </div>
+        </a>
+
+        <a href="#" class="card-link">
+            <div class="project">
+                <h3>🚗 Prestige Motors Kenya CRM</h3>
+                <p>Luxury auto dealership management system with sales pipeline.</p>
+                <p><strong>Stack:</strong> Laravel, Vue.js, MySQL</p>
+            </div>
+        </a>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my professional resume or connect with me on LinkedIn:</p>
+        <div class="btn-group">
+            <a href="your-resume-link.pdf" target="_blank">Download Resume</a>
+            <a href="https://www.linkedin.com/in/mercy-mbaka-4b4036354" target="_blank">LinkedIn Profile</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact / Hire Me</h2>
+        <p><strong>Email:</strong> <a href="mailto:official.mercymbaka@gmail.com">official.mercymbaka@gmail.com</a></p>
+        <p><strong>Phone:</strong> +254 748 077 609</p>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/254748077609" target="_blank">Chat Now</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mercy-mbaka-4b4036354"
+                target="_blank">linkedin.com/in/mercy-mbaka</a></p>
+    </section>
+
+    <footer>
+        &copy; 2025 MERCY MBAKA | AI-Powered Software Engineer | Nairobi, Kenya
+    </footer>
+</body>
+
+</html>
